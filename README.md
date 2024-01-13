@@ -22,9 +22,17 @@ php artisan migrate
    ```
    php artisan db:seed
    ```
-## 5. Instalar la biblioteca/libreria
-   [phpspreadsheet](https://packagist.org/packages/phpoffice/phpspreadsheet) 
-## 6 Ejecutar el servidor 
+## 5. Instalar las bibliotecas/librerias
+   ```
+    composer install
+```
+
+## 6. . Generar una app Key
+```
+php artisan key:generate
+```
+
+## 7. Ejecutar el servidor 
 ```
 php artisan serve
 ```
